@@ -1,0 +1,13 @@
+
+#game-area{
+    width: 50vw;
+    margin:0 auto;
+    height: fit-content;
+    border: 2px solid grey;
+    background-color: #48bfe0;
+}
+
+#canvasGame{
+    border: 2px solid lightgray;
+}
+

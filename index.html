@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipping Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="game-area">
+
+        <div class="row" id="game-detail">
+            <div class="col-lg-6">
+                <h5>
+                    <strong>Player's turn</strong>
+                    <b id="player"></b>
+                    <div id="circle"></div>
+
+                </h5>
+            </div>
+
+            <div class="col-lg-6">
+                <h5> <strong>Poin's Player</strong></h5>
+                <span class="badge badge-light" id="white-score">fndkfddfi</span>
+                <strong class="text-white">White Player</strong>
+                <br />
+                <span class="badge badge-dark" id="black-score">fndkfddfi</span>
+                <strong class="text-dark">Dark Player</strong>
+                <br />
+                <button class="btn btn-sm btn-danger my-1" onclick="main()">RESET GAME</button>
+            </div>
+        </div>
+        <div class="">
+            <canvas id="canvasGame" width="500" height="500"></canvas>
+        </div>
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
